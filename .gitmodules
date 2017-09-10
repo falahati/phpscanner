@@ -1,0 +1,4 @@
+[submodule "php_malware_scanner"]
+	path = php_malware_scanner
+	url = https://github.com/planet-work/php-malware-scanner.git
+	branch = master

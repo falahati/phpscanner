@@ -6,7 +6,9 @@ import fnmatch
 import json
 import hashlib
 import time
-from phpmalwarescanner import is_hacked
+import sys
+sys.path.insert(0, 'php_malware_scanner')
+from phpscanner import is_hacked
 from collections import Counter
 
 
